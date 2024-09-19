@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "svgs/*": ["src/assets/SVG/*"],
+      "c/*": ["src/components/*"],
+      "~/*": ["src/*"]
+    },
+    "target": "es2017",
+    "module": "commonjs",
+    "jsx": "react-jsx",
+    "allowJs": true
+  },
+  "checkJs": true,
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
